@@ -14,7 +14,7 @@ This Python script uses linear regression to predict future honey production bas
 
 To use this script, first clone the repository:
 
-$ git clone https://github.com/username/honey-production-prediction.git
+$ git clone https://github.com/rajkumar3934/honey-production-prediction.git
 $ cd honey-production-prediction
 
 Then, install the required dependencies:
@@ -30,6 +30,8 @@ $ python honey_production_prediction.py
 
 
 The script will generate two plots: one showing the historical honey production data and the predicted values, and one showing the predicted values for future years.
+
+![image](https://user-images.githubusercontent.com/27536166/230705381-d62ea2bc-ea2d-4119-8c96-11a005c1fb26.png)
 
 ## Contributing
 
