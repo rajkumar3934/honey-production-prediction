@@ -5,7 +5,7 @@ import numpy as np
 from sklearn import linear_model
 
 # Load the honey production data into a Pandas DataFrame
-df = pd.read_csv("https://content.codecademy.com/programs/data-science-path/linear_regression/honeyproduction.csv")
+df = pd.read_csv("honeyproduction.csv")
 
 # Group the data by year and calculate the mean total production for each year
 prod_per_year = df.groupby('year').totalprod.mean().reset_index()
